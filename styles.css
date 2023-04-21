@@ -1,0 +1,190 @@
+/* Mobile */
+@media (min-width: 768px){
+    /* Insert Mobile Specific CSS Here*/
+    }
+    
+    /* Global */
+    :root {
+      --background-color1: white;
+      --background-color2: white;
+      --button-color1: rgba(255,164,0,1);
+      --button-color1-hover: rgba(255,164,0,0.5);
+      --heading-color1: black;
+      --link-color1: rgba(255,164,0,1);
+      --link-color1-hover: rgba(255,164,0,0.5);
+      --text-color1: black;
+      --text-color2: black;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background-color1);
+    }
+    
+    body {
+      padding-top: 80px;
+    }
+    
+    .page {
+      width: 100%;
+      min-height: 150px;
+    }
+    
+    h1 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: var(--heading-color1);
+      text-decoration: none;
+    }
+    
+    h2 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--heading-color1);
+      text-decoration: none;
+    }
+    
+    h3 {
+      font-family: sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--heading-color1);
+      text-decoration: none;
+    }
+    
+    p {
+      font-family: sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--text-color1);
+    }
+    
+    .input-field {
+      width: 400px;
+      height: 40px;
+      margin-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+      outline: none;
+      color: var(--text-color1);
+    }
+    
+    .btn {
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--text-color2);
+      text-decoration: none;
+      padding: 5px 20px;
+      background-color: var(--button-color1);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.2s ease 0s;
+    }
+    
+    .btn:hover {
+      background-color: var(--button-color1-hover);
+    }
+    
+    .feature-item {
+      margin-top: 10px;
+      display: flex;
+    }
+    
+    #features .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 120px;
+      width: 15vw;
+      color: var(--link-color1);
+    }
+    
+    #features .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 120px;
+      width: 80vw;
+      padding: 5px;
+    }
+    
+    /* Nav Bar */
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding: 20px 10%;
+      background-color: var(--background-color2);
+      display: flex;
+      flex-direction: row; 
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav {
+      background-color: var(--background-color2);
+    }
+    
+    .logo {
+      width: 40vw;
+      background-color: var(--background-color2);
+    }
+    
+    li {
+      font-family: sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--link-color1);
+      text-decoration: none;
+      background-color: var(--background-color2)0;
+    }
+    
+    .nav-link, li {
+      list-style: none;
+      display: inline-block;
+      padding: 0px 20px;
+    }
+    
+    a {
+      transition: all 0.2s ease 0s;
+      font-family: sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--link-color1);
+      text-decoration: none;
+      background-color: var(--background-color2);
+    }
+    
+    a:hover {
+      color: var(--link-color1-hover);
+    }
+    
+    /* Page Sections */
+    section {
+      padding: 45px 10%;
+      text-align: center;
+    }
+    
+    iframe {
+      max-width: 600px;
+      width: 100%;
+    }
+    
+    .product-carosel {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 10%;
+      color: var(--link-color1);
+    }
